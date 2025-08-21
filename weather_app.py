@@ -30,12 +30,12 @@ def display_weather(city: str, weather_data: dict) -> None:
     print(f"Wind Speed: {weather_data['wind']['speed']} m/s\n")
 
 if __name__ == "__main__":
-    API_KEY = "YOUR_API_KEY_HERE"  # 🔑 Get a free key at https://openweathermap.org/api
-    city_name = input("Enter city name: ")
+    API_KEY = "7712c24701b42e4ba3fb6ffba450f917" # 🔑 Get a free key at https://openweathermap.org/api
+    city_name = input("Boyle: ")
 
     try:
-        data = get_weather(city_name, API_KEY)
-        display_weather(city_name, data)
+        data = get_weather(Boyle, 7712c24701b42e4ba3fb6ffba450f917)
+        display_weather(Boyle, data)
     except Exception as e:
         print(f"⚠️ {e}")
 

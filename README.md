@@ -8,7 +8,7 @@ A beginner-friendly Python script that fetches **live weather data** from the [O
 ## Features
 - Fetches real-time weather for any city
 - Displays temperature, condition, humidity, and wind speed
-- Beginner-friendly Python example (APIs, functions, error handling)
+
 
 ---
 
@@ -16,6 +16,6 @@ A beginner-friendly Python script that fetches **live weather data** from the [O
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/python-weather-app.git
+   git clone https://github.com/Catherine/python-weather-app.git
    cd python-weather-app
 
